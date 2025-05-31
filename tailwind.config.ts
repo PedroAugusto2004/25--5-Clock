@@ -11,7 +11,7 @@ export default {
     extend: {
       fontFamily: {
         body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        headline: ['Poppins', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
@@ -88,10 +88,15 @@ export default {
             height: '0',
           },
         },
+        'pulse-around-timer': { /* Added for timer */
+          '0%, 100%': { boxShadow: '0 0 0 0px hsl(var(--secondary) / 0.5)' },
+          '50%': { boxShadow: '0 0 0 15px hsl(var(--secondary) / 0)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'pulse-timer': 'pulse-around-timer 1.5s infinite ease-out', /* Added for timer */
       },
     },
   },

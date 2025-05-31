@@ -1,3 +1,9 @@
+import Clock from "@/components/clock";
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <Clock />
+    </main>
+  );
 }

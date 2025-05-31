@@ -1,5 +1,5 @@
-# Firebase Studio
+# Welcome to my FreeCodeCamp 25 + 5 Clock
 
-This is a NextJS starter in Firebase Studio.
+## Project info
 
-To get started, take a look at src/app/page.tsx.
+**URL**: https://master.dhagppgzvjpz.amplifyapp.com/
